@@ -16,7 +16,7 @@ const ChatComponent = () => {
     
     useEffect(() => {
         const newConnection = new signalR.HubConnectionBuilder()
-        .withUrl('http://10.10.20.3:8088/ChatHub', {
+        .withUrl('//10.10.20.3:8088/ChatHub', {
             withCredentials: true,
             mode: 'no-cors'
         })
