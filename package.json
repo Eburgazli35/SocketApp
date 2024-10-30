@@ -1,0 +1,27 @@
+{
+  "name": "socket-io-example",
+  "version": "0.1.0",
+  "proxy": "http://10.10.20.3:8088",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^8.0.7",
+    "autoprefixer": "^10.4.20",
+    "next": "^14.2.8",
+    "postcss-import": "^16.1.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.7",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.10"
+  }
+}
